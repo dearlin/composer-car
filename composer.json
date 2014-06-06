@@ -1,0 +1,34 @@
+{
+    "name": "hehe/composer-car",
+    "description": "This is a test package for composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hehe",
+            "email": "hehe@123.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        },
+        "classmap": [
+            "src/Ford/Etest"
+        ],
+        "files": [
+            "src/Ford/Ftest"
+        ]
+    }
+    /*"autoload": {
+        "classmap": [
+            "app/libraries"
+        ]
+    }*/
+}
