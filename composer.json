@@ -26,9 +26,4 @@
             "src/Ford/Ftest"
         ]
     }
-    /*"autoload": {
-        "classmap": [
-            "app/libraries"
-        ]
-    }*/
 }
